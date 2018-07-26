@@ -2,7 +2,7 @@ public class Account {
     private String accountName;
     private double accountBalance;
 
-    public Account(String accountName, double accountBalance) {
+    public Account(String reco, int i) {
         this.accountName= accountName;
         this.accountBalance = accountBalance;
     }
@@ -23,5 +23,8 @@ public class Account {
     public String toString() {
         String toPrint = "Account Name: " + this.accountName + ", account balance: " + this.accountBalance;
         return toPrint;
+    }
+
+    public void deposit() {
     }
 }

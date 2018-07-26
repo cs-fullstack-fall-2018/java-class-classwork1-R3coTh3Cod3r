@@ -12,9 +12,9 @@ public class Person {
         this.weight = newWeight;
     }
 
-    public double bodyMassIndex(){
+    public double bodyMassIndex() {
         double heightDividedByHundred = this.height / 100.0;
-        return this.weight / ( heightDividedByHundred * heightDividedByHundred );
+        return this.weight / (heightDividedByHundred * heightDividedByHundred);
     }
 
     public void printPerson() {
